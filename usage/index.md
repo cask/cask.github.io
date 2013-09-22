@@ -34,6 +34,21 @@ This will create a directory called `.cask`, containing all dependencies.
 
 Below all Cask commands are described.
 
+* [exec](#exec)
+* [help](#help)
+* [info](#info)
+* [init](#init)
+* [install](#install)
+* [list](#list)
+* [load-path](#load-path)
+* [outdated](#outdated)
+* [package](#package)
+* [package-directory](#package-directory)
+* [path](#path)
+* [update](#update)
+* [upgrade](#upgrade)
+* [version](#version)
+
 ### <a id="exec"></a>exec
 
 Execute command with correct `PATH` (see [path](#path)) and
@@ -73,10 +88,10 @@ $ cask init       # For Emacs configuration
 $ cask init --dev # For package development
 ```
 
-### <a id="install"></a>install *(default)*
+### <a id="install"></a>install
 
-Install all runtime and development dependencies specified in the
-`Cask`-file.
+This is the default command, which installs all runtime and
+development dependencies specified in the `Cask`-file.
 
 ```
 $ cask

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/cask.css">
+
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/cask.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Cask</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/installation">Installation</a></li>
+            <li><a href="/usage">Usage</a></li>
+            <li><a href="/api">API</a></li>
+            <li><a href="/dsl">DSL</a></li>
+            <li><a href="/examples">Examples</a></li>
+            <li><a href="/contribution">Contribution</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

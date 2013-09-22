@@ -1,2 +1,3 @@
-cask.github.io
-==============
+# cask.github.io
+
+Visit <http://cask.github.io/>

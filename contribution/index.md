@@ -17,4 +17,7 @@ Then to run the tests:
     $ make
 
 If all passes, send us a
-[pull request](https://github.com/cask/cask/pulls) with the changes.
+[pull request](https://github.com/cask/cask/pulls) with the
+changes. Note that we usually work on a WIP-branch, which is the
+branch the pull request should target. They are named
+`v{MAJOR}.{MINOR}-wip`.

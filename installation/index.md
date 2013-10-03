@@ -7,7 +7,7 @@ layout: default
 
 To automatically install Cask, run this command:
 
-    curl -fsSkL https://raw.github.com/rejeep/cask.el/master/go | sh
+    $ curl -fsSkL https://raw.github.com/cask/cask/master/go | sh
 
 You can also clone the repository.
 

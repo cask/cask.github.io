@@ -1,9 +1,15 @@
 ---
-title: Contribution
+title: Development
 layout: default
 ---
 
-# Contribution
+# Development
+
+The development of Cask is at Github
+<https://github.com/cask/cask>. Development related discussion is done
+in a Google group <https://groups.google.com/forum/#!forum/cask-dev>.
+
+## Contribution
 
 Be sure to!
 

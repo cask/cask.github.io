@@ -30,6 +30,13 @@ $ cask [install]
 
 This will create a directory called `.cask`, containing all dependencies.
 
+The commands below execute using the `emacs` binary. To specify a
+custom Emacs, use the `EMACS` environment variable, for example:
+
+```
+$ EMACS="$(evm bin emacs-24.1)" cask command
+```
+
 ## Commands
 
 Below all Cask commands are described.

@@ -37,12 +37,12 @@ custom Emacs, use the `EMACS` environment variable, for example:
 $ EMACS="$(evm bin emacs-24.1)" cask command
 ```
 
-## Commands
+## Commands & Options
 
-Below all Cask commands are described.
+Below all Cask commands and options are described.
 
 * [exec](#exec)
-* [help](#help)
+* [help, --help, -h](#help)
 * [info](#info)
 * [init](#init)
 * [install](#install)
@@ -55,6 +55,10 @@ Below all Cask commands are described.
 * [update](#update)
 * [upgrade](#upgrade)
 * [version](#version)
+* [--version](#option-version)
+* [--dev](#option-dev)
+* [--debug](#option-debug)
+* [--path](#option-path)
 
 ### <a id="exec"></a>exec
 
@@ -188,4 +192,39 @@ Print version of this package.
 
 ```
 $ cask version
+```
+
+---
+
+### <a id="option-version"></a>--version
+
+Print Cask's version.
+
+```
+$ cask --version
+```
+
+### <a id="option-dev"></a>--dev
+
+Perform action in development mode. This option does only take affect
+for some commands. See resp. command for that information.
+
+```
+$ cask --dev
+```
+
+### <a id="option-debug"></a>--debug
+
+Enable debug information.
+
+```
+$ cask --debug
+```
+
+### <a id="option-path"></a>--path
+
+Change default directory to path before executing command.
+
+```
+$ cask --path /path/to
 ```

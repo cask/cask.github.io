@@ -1,8 +1,10 @@
 body {
-  padding-top: 30px;
+  padding-top: 65px;
 }
 
-img#logo {
-  width: 63px;
-  height: 63px;
+#logo {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 3000;
 }

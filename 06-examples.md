@@ -1,15 +1,18 @@
 ---
 title: Examples
 layout: default
+permalink: examples.html
 ---
 
-# Examples
+## Examples
+
+---
 
 Here are a few examples of how a `Cask`-file might look like.
 
-## Emacs configuration
+### Emacs configuration
 
-```
+{% highlight cl %}
 (source melpa)
 
 (depends-on "auto-complete")
@@ -23,32 +26,29 @@ Here are a few examples of how a `Cask`-file might look like.
 (depends-on "s")
 (depends-on "smartparens")
 (depends-on "yasnippet")
-```
+{% endhighlight %}
 
-## Package development
+### package development
 
-```
+{% highlight cl %}
 (source melpa)
 
-(package "super" "0.7.6" "Super project.")
+(package-file "super.el")
 
-(depends-on "commander")
-(depends-on "f")
-(depends-on "s")
-(depends-on "dash")
+(files "super.el" "bin")
 
 (development
  (depends-on "el-mock")
  (depends-on "ecukes")
  (depends-on "ert-runner"))
-```
+{% endhighlight %}
 
-## I still don't get it, give me some real examples
+### I still don't get it, give me some real examples
 
 These are some projects and configurations using Cask:
 
 * [rejeep/emacs](https://github.com/rejeep/emacs)
-* [drag-stuff](https://github.com/rejeep/drag-stuff)
+* [prodigy](https://github.com/rejeep/prodigy.el)
 * [emacs-jedi](https://github.com/tkf/emacs-jedi)
 * [flycheck](https://github.com/lunaryorn/flycheck)
 * [projectile](https://github.com/bbatsov/projectile)

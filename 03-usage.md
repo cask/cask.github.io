@@ -65,6 +65,10 @@ documentation, use `cask help`.
 * [clean-elc](#clean-elc)
 * [link](#link)
 * [package](#package)
+* [--proxy](#option-proxy)
+* [--http-proxy](#option-http-proxy)
+* [--https-proxy](#option-https-proxy)
+* [--no-proxy](#option-no-proxy)
 * [--version](#option-version)
 * [--dev](#option-dev)
 * [--debug](#option-debug)
@@ -259,6 +263,38 @@ $ cask package /path/to/dist
 ### Options
 
 ---
+
+#### <a id="option-proxy"></a>--proxy
+
+Set Emacs proxy for HTTP and HTTPS.
+
+{% highlight bash %}
+$ cask --proxy "localhost:8888"
+{% endhighlight %}
+
+#### <a id="option-http-proxy"></a>--http-proxy
+
+Set Emacs proxy for HTTP.
+
+{% highlight bash %}
+$ cask --http-proxy "localhost:8888"
+{% endhighlight %}
+
+#### <a id="option-https-proxy"></a>--https-proxy
+
+Set Emacs proxy for HTTPS.
+
+{% highlight bash %}
+$ cask --https-proxy "localhost:8888"
+{% endhighlight %}
+
+#### <a id="option-no-proxy"></a>--no-proxy
+
+Set Emacs "no-proxy".
+
+{% highlight bash %}
+$ cask --no-proxy "work\\.com"
+{% endhighlight %}
 
 #### <a id="option-version"></a>--version
 

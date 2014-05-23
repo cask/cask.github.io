@@ -6,6 +6,8 @@ permalink: installation.html
 
 ## Installation
 
+To install Cask you need Emacs 24 or higher.
+
 ---
 
 To automatically install Cask, run this command:
